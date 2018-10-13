@@ -3,22 +3,22 @@
 To use, first do
 
 ```
-git clone
+git clone https://github.com/glwagner/SimpleNavierStokes.git
 cd SimpleNavierStokes
 ```
 
-Next, start `julia`, press `]`, and type
+Next, start `julia`, press `]` to activate the `Pkg` REPL, and type
 
 ```julia
 Pkg> activate .
 ```
 
-This activates the environment `SimpleNavierStokes`.
+to activates the environment `SimpleNavierStokes`.
 
-Hit backspace and type
+Hit backspace to return to the `julia` REPL and type
 
 ```julia
 julia> include("examples/randomdecay.jl")
 ```
 
-Enjoy.
+Enjoy the show.
