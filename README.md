@@ -11,9 +11,10 @@ Next, start `julia`, press `]` to activate the `Pkg` REPL, and type
 
 ```julia
 Pkg> activate .
+Pkg> instantiate
 ```
 
-to activates the environment `SimpleNavierStokes`.
+to activate and instantiate the environment `SimpleNavierStokes`.
 
 Hit backspace to return to the `julia` REPL and type
 
